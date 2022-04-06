@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-23T00:14:34 EET" name="Default suite" finished-at="2021-10-23T00:14:52 EET" duration-ms="17673">
+    <groups>
+    </groups>
+    <test started-at="2021-10-23T00:14:34 EET" name="Default test" finished-at="2021-10-23T00:14:52 EET" duration-ms="17673">
+      <class name="tests.KeywordDriven">
+        <test-method is-config="true" signature="setBrowserType(java.lang.String)[pri:0, instance:tests.KeywordDriven@6d4d66d2]" started-at="2021-10-23T00:14:34 EET" name="setBrowserType" finished-at="2021-10-23T00:14:40 EET" duration-ms="5772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowserType -->
+        <test-method is-config="true" signature="loadLoginData()[pri:0, instance:tests.KeywordDriven@6d4d66d2]" started-at="2021-10-23T00:14:40 EET" name="loadLoginData" finished-at="2021-10-23T00:14:41 EET" duration-ms="1042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadLoginData -->
+        <test-method signature="login()[pri:0, instance:tests.KeywordDriven@6d4d66d2]" started-at="2021-10-23T00:14:41 EET" name="login" finished-at="2021-10-23T00:14:50 EET" duration-ms="9626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:tests.KeywordDriven@6d4d66d2]" started-at="2021-10-23T00:14:50 EET" name="quitDriver" finished-at="2021-10-23T00:14:52 EET" duration-ms="1179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- tests.KeywordDriven -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
